@@ -1,0 +1,13 @@
+thead {
+  color: white;
+  background-color: #4682b4;
+}
+button,
+button:hover,
+button:active,
+button:focus {
+  background-color: #b0c4de;
+}
+.table-responsive {
+  margin-top: 10px;
+}

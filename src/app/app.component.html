@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand navbar-light bg-light padding-left">
+  <a class="navbar-brand padding-left"
+    ><i class="fa fa-calendar" aria-hidden="true"></i> {{ pageTitle }}</a
+  >
+  <ul class="nav nav-pills">
+    <li>
+      <a class="nav-link" routerLinkActive="active" routerLink="/home">Home</a>
+    </li>
+    <li>
+      <a class="nav-link" routerLinkActive="active" routerLink="/events"
+        >Events List</a
+      >
+    </li>
+    <li>
+      <a class="nav-link">Coming soon</a>
+    </li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>

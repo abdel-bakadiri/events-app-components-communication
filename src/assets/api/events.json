@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Angular Connect Paris",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit ",
+    "code": "ac 65",
+    "date": "9/26/2036",
+    "price": 9.99,
+    "imageUrl": "/assets/images/paris-angular.png",
+    "rating": 4.2
+  },
+  {
+    "id": 2,
+    "name": "Angular Softeam Conference: TypeScripte",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit ",
+    "code": "ng 25",
+    "date": "4/15/2030",
+    "price": 500,
+    "imageUrl": "/assets/images/paris_ts.jpeg",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "Angular Ng France",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ",
+    "code": "nv 13",
+    "date": "05/26/2029",
+    "price": 400,
+    "imageUrl": "/assets/images/angular_fr.jpeg",
+    "rating": 3.9
+  },
+  {
+    "id": 4,
+    "name": "Ng Conf Ametix (workshop)",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit ",
+    "code": "cn 44",
+    "date": "05/26/2022",
+    "price": 800,
+    "imageUrl": "/assets/images/ng-conf.png",
+    "rating": 4.9
+  },
+  {
+    "id": 5,
+    "name": "Ametix Angular Summit",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi ",
+    "code": "ma 23",
+    "date": "05/15/2023",
+    "price": 300,
+    "imageUrl": "/assets/images/basic-shield.png",
+    "rating": 4.7
+  },
+  {
+    "id": 6,
+    "name": "Angular Connect",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi ",
+    "code": "ma 23",
+    "date": "05/15/2023",
+    "price": 300,
+    "imageUrl": "/assets/images/angularconnect-shield.png",
+    "rating": 4.7
+  },
+  {
+    "id": 7,
+    "name": "Ng Angular Netherland",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi ",
+    "code": "ma 23",
+    "date": "05/15/2023",
+    "price": 300,
+    "imageUrl": "/assets/images/ng-nl.png",
+    "rating": 4.7
+  }
+]
