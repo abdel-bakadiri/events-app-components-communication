@@ -1,8 +1,6 @@
-import { ListEventsService } from './list-events.service';
 import { Component, OnInit } from '@angular/core';
 import { EventIt } from '../../models/event';
-import { range } from 'rxjs';
-import { filter, map } from 'rxjs/operators';
+import { ListEventsService } from './list-events.service';
 
 @Component({
   selector: 'event-event-list',
@@ -22,7 +20,7 @@ export class EventListComponent implements OnInit {
     return this._filteredByName;
   }
   public set filteredByName(value) {
-    this.performFilterEvents(value);
+    // this.performFilterEvents(value);
     this._filteredByName = value;
   }
   filteredEvents: EventIt[] = [];
@@ -30,7 +28,7 @@ export class EventListComponent implements OnInit {
 
   constructor(private listEventsService: ListEventsService) {}
 
-  private performFilterEvents(value: string): void {
+  public performFilterEvents(value: string): void {
     const filterLowerCased = value.toLocaleLowerCase();
     this.filteredEvents = this.events.filter((eventIt) =>
       eventIt.name.toLocaleLowerCase().includes(filterLowerCased)
