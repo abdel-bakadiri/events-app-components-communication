@@ -20,7 +20,7 @@ export class EventListComponent implements OnInit {
     return this._filteredByName;
   }
   public set filteredByName(value) {
-    // this.performFilterEvents(value);
+    this.performFilterEvents(value);
     this._filteredByName = value;
   }
   filteredEvents: EventIt[] = [];
