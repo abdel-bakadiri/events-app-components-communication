@@ -9,6 +9,8 @@ import { catchError, filter, map, tap } from 'rxjs/operators';
 })
 export class ListEventsService {
   private URL = 'assets/api/events.json';
+  public _showImage = true;
+  public filterName: string = '';
   constructor(private httpClient: HttpClient) {}
   getEvents(): Observable<EventIt[]> {
     return this.httpClient

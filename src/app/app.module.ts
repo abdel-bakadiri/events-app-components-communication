@@ -8,7 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EventItModule } from './events/event-it.module';
 import { HomeComponent } from './events/home/home.component';
-import { SpaceToDashPipe } from './shared/space-to-dash.pipe';
 
 registerLocaleData(localeFr);
 const ROUTES = [

@@ -1,18 +1,14 @@
 <div class="card">
   <div class="card-body">
     <div class="row">
-      <div class="col-md-2">Filter by:</div>
-      <div class="col-md-4">
-        <input type="text" [(ngModel)]="filteredByName" />
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6" *ngIf="filteredByName">
-        <h4>Filtered by: {{ filteredByName }}</h4>
-      </div>
+      <event-filter
+        [displayDetail]="true"
+        [countEventsIt]="filteredEvents?.length"
+        (filterByNameEvent)="onFilterByName($event)"
+      ></event-filter>
     </div>
     <div class="table-responsive">
-      <table class="table" *ngIf="filteredEvents.length; else noproduct">
+      <table class="table" *ngIf="filteredEvents?.length; else noproduct">
         <thead>
           <tr>
             <th>
