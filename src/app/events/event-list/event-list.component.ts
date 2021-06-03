@@ -16,10 +16,10 @@ export class EventListComponent implements OnInit {
   marginImage = 2;
 
   public get showImage(): boolean {
-    return this.listEventsService._showImage;
+    return this.listEventsService.showImage;
   }
   public set showImage(value: boolean) {
-    this.listEventsService._showImage = value;
+    this.listEventsService.showImage = value;
   }
   theRatingStars: number;
   errorMessage: string;
@@ -46,7 +46,6 @@ export class EventListComponent implements OnInit {
       next: (eventsIt) => {
         this.events = eventsIt;
         this.performFilterEvents(this.listEventsService.filterName);
-        // this.filteredEvents = this.events;
       },
       error: (errMessage) => {
         this.errorMessage = errMessage;

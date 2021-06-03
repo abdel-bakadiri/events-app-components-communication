@@ -2,14 +2,14 @@ import { Injectable } from '@angular/core';
 import { EventIt } from 'src/app/models/event';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
-import { catchError, filter, map, tap } from 'rxjs/operators';
+import { catchError, filter, map, mergeMap, tap } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ListEventsService {
-  private URL = 'assets/api/events.json';
-  public _showImage = true;
+  private URL = 'api/eventsIt';
+  public showImage = true;
   public filterName: string = '';
   constructor(private httpClient: HttpClient) {}
   getEvents(): Observable<EventIt[]> {
@@ -32,5 +32,8 @@ export class ListEventsService {
         eventsIt.find((eventIt) => eventIt.id === id)
       )
     );
+    // return this.httpClient
+    //   .get<EventIt>(`${this.URL}/${id}`)
+    //   .pipe(catchError(this.handelError));
   }
 }
